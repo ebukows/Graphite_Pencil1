@@ -1,0 +1,34 @@
+{
+    "name": "Left_Joystick",
+    "maps": [
+        {
+            "name": "XRI_LeftHand",
+            "id": "9908f5e7-55ee-4b08-8a3c-d701a7e94bbe",
+            "actions": [
+                {
+                    "name": "Joystick",
+                    "type": "Value",
+                    "id": "b0091ba3-972a-4163-b2d3-f727b4c15f96",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c4354fc1-0d24-4462-a284-39c12e10643c",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Joystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

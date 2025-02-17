@@ -1,0 +1,34 @@
+{
+    "name": "Right_Joystick",
+    "maps": [
+        {
+            "name": "XRI_RightHand",
+            "id": "aa50a6eb-2563-4f80-81d1-91ffd416efe0",
+            "actions": [
+                {
+                    "name": "Joystick",
+                    "type": "Value",
+                    "id": "73cf766d-15b7-453f-8c88-bc86fa2f2b2a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e6e7565d-3d2f-4a4e-8985-635f90004b17",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Joystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
